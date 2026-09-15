@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    image: "blog:${BLOG_TAG:-1}"
+    volumes:
+      - .:/App
+      - node_modules:/App/node_modules
+    tty: true
+    stdin_open: true
+    environment:
+      RAILS_ENV: development
+      EDITOR: ${EDITOR:-vim}
+    command: npm run dev -- --host 0.0.0.0
+    ports:
+      - 4321:4321
+volumes:
+  node_modules:

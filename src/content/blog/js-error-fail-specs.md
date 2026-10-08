@@ -1,9 +1,9 @@
 ---
 title: 'JS Errors Failing RSpec'
 description: 'One of the most frustrating classes of bugs in web applications is the JavaScript error that never causes a test to fail.'
-pubDate: 2026-09-16
-draft: true
-heroImage: '../../assets/blog-placeholder-1.jpg'
+pubDate: 2026-10-07
+draft: false
+heroImage: '../../assets/js_fail_rspec.png'
 ---
 # Making JS Console Errors Fail RSpec System Tests
 

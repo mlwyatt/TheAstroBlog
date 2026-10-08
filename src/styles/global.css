@@ -45,20 +45,27 @@ h6 {
 	color: rgb(var(--black));
 	line-height: 1.2;
 }
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1em;
+}
 h1 {
-	font-size: 3.052em;
+  font-size: 2.441em;
 }
 h2 {
-	font-size: 2.441em;
+  font-size: 1.953em;
 }
 h3 {
-	font-size: 1.953em;
+  font-size: 1.563em;
 }
 h4 {
-	font-size: 1.563em;
+  font-size: 1.25em;
 }
 h5 {
-	font-size: 1.25em;
+  font-size: 1em;
 }
 strong,
 b {
@@ -72,9 +79,6 @@ a:hover {
 }
 p {
 	margin-bottom: 1em;
-}
-.prose p {
-	margin-bottom: 2em;
 }
 textarea {
 	width: 100%;
@@ -99,6 +103,7 @@ code {
 pre {
 	padding: 1.5em;
 	border-radius: 8px;
+  font-size: 0.85rem;
 }
 pre > code {
 	all: unset;
